@@ -15,7 +15,7 @@ app.controller("PhotoControl", function($scope, $http, $window, $timeout, $locat
         $scope.loaded = false;
         $http.
         //make sure you use your google api key here
-            get('https://www.googleapis.com/plus/v1/people/'+organizer.id+'?key=AIzaSyA3vAdAjs2SnXFcnhumM8VDwOswJeB-38s').
+            get('https://www.googleapis.com/plus/v1/people/'+organizer.id+'?key=AIzaSyCdwkGd6lDg5HB_WaMuqUFcYF4MQdI1SqY').
             success(function(response){
 
 
